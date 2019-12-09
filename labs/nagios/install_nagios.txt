@@ -1,0 +1,5 @@
+# Download Nagios Container
+docker run -d -p 80:80 -p 5666:5666 -p 5667:5667 --name nagiosxi leaddevops/nagios:v1
+
+# Check for status
+docker ps
